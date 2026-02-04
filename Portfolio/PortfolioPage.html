@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ram | Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <script src="Portfolio.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div id="logo">Portfolio</div>
+        <nav id="menubar">
+            <a href="#about" class="menubtn">About</a>
+            <a href="#skills" class="menubtn">Skills</a>
+            <a href="#projects" class="menubtn">Projects</a>
+            <a href="#contact" class="menubtn">Contact</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, this is Ram. I am a passionate developer.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container" id="skills-container">
+            <!-- Skill cards will be rendered here via JS -->
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container" id="projects-container">
+            <!-- Project Cards will be rendered here via JS -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div id="contact-container">
+            <form id="contact-form">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter Email">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Enter Message here..."></textarea>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Ram's Portfolio</h3>
+                <p>Passionate Developer | HTML, CSS, JS | React Enthusiast</p>
+            </div>
+    
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Email: ram@example.com</p>
+                <p>Phone: +91-XXXXXXXXXX</p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ram. All rights reserved.</p>
+        </div>
+    </footer>    
+</body>
+</html>
