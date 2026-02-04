@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="ToDoList.css">
+</head>
+
+<body>
+    <div id="formContainer">
+        <form id="form">
+            <h2>To-Do List</h2>
+            <div>
+                <label for="taskId">Task ID</label>
+                <input type="text" id="taskId" placeholder="Enter a Task ID" autocomplete="off" />
+            </div>
+            <div>
+                <label for="name">Task Name</label>
+                <input type="text" id="name" placeholder="Enter a Task Name" autocomplete="off" />
+            </div>
+            <div>
+                <label for="description">Description</label>
+                <input type="text" id="description" placeholder="Enter a Description" autocomplete="off" />
+            </div>
+            <div id="completed">
+                <label for="status">Status</label>
+                <input type="checkbox" id="status" />
+            </div>
+            <input type="submit" value="submit" id="submit" />
+        </form>
+    </div>
+    <div id="tableContainer">
+        <div id="tableHeader">
+            <div>
+                <h2 id="tableTitle">Tasks</h2>
+            </div>
+            <diV>
+                <button id="reset" onclick="resetTasks()"> Reset </button>
+            </diV>
+        </div>
+        <p id="noTask">No Task are Available</p>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Task Id</th>
+                    <th>Task Name</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+    <script src="ToDoList.js"></script>
+</body>
+
+</html>
