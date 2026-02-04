@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './App.css';
+import Weather from "./Weather/Weather";
 
 function App() {
   return (
     <>
+        <Weather></Weather>
     </>
   );
 }

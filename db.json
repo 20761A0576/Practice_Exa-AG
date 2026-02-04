@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "John Doe",
+      "email": "john@example.com",
+      "mobile": "1234567890",
+      "gender": "Male",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "username": "Jane Smith",
+      "email": "jane@example.com",
+      "mobile": "9876543210",
+      "gender": "Female",
+      "password": "securepass"
+    },
+    {
+      "id": "3",
+      "username": "Alex Johnson",
+      "email": "alex@example.com",
+      "mobile": "5556667777",
+      "gender": "None",
+      "password": "mypassword"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "350ee1c8-fd28-401f-84dc-cf3f548a44dd",
+      "name": "asda",
+      "description": "asdfasdf",
+      "status": true
+    },
+    {
+      "id": "46158230-a695-4b6b-b76e-0fe9654b95ee",
+      "name": "asdas",
+      "description": "asdad asfa saefd",
+      "status": false
+    }
+  ],
+  "products": [
+    {
+      "id": "50a568f2-aa68-4f3b-8107-78c4d44d89c9",
+      "name": "Dell Laptop ",
+      "price": 99230,
+      "description": "Laptop comes with intel i7Core",
+      "category": "Electronics",
+      "stock": 19,
+      "image": "https://m.media-amazon.com/images/I/71Vum7DnVBL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "3ccc7d38-8c70-400c-a8ac-7a8abe724ad1",
+      "name": "Tablet ultra pro +",
+      "price": 78669,
+      "description": "New Version Taplet",
+      "category": "Electronics",
+      "stock": 222,
+      "image": "https://p3-ofp.static.pub/fes/cms/2023/02/22/5rhddw9d8vm9xfkexcwzvvi9lindg8985574.png"
+    },
+    {
+      "id": "c5c9baac-ef24-4dc8-ab28-5168e9fb531a",
+      "name": "Shoes",
+      "price": 999,
+      "description": "Shoes comes with leather with brown color",
+      "category": "Apparel",
+      "stock": 25,
+      "image": "https://shopfeeneys.com/cdn/shop/files/IMG2.jpg?v=1732579442&width=2048"
+    },
+    {
+      "id": "2cb428ac-7a45-48d8-83b1-27d35b412dd9",
+      "name": "Washing Machine ",
+      "price": 5999,
+      "description": "Wash gently ",
+      "category": "Electrical",
+      "stock": 52,
+      "image": "https://media3.bsh-group.com/Product_Shots/25114476_WAJ24209IN_PGA4_def.webp"
+    },
+    {
+      "id": "79d0e376-7244-4826-952f-a899cfc3755e",
+      "name": "Mobile Pro",
+      "price": 16999,
+      "description": "Mobile with 6000mAh battery capacity ",
+      "category": "Electronics",
+      "stock": 23,
+      "image": "https://i.cdn.newsbytesapp.com/images/l47320230625121352.png"
+    },
+    {
+      "id": "b3a5fbf3-db35-46cc-a3bd-a9de3cb7bb35",
+      "name": "Jeans",
+      "price": 999,
+      "description": "Blue color jean with gray shades",
+      "category": "Apparel",
+      "stock": 45,
+      "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/jean/p/g/m/30-t-baggy-dark-blue-tidda-original-imah3ztw5ngr78hf.jpeg?q=90"
+    },
+    {
+      "id": "d1157ad9-c8d8-4e13-a116-837692189612",
+      "name": "Laptop",
+      "price": 85999,
+      "description": "Laptop comes with intel i7Core",
+      "category": "Electronics",
+      "stock": 13,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE-t9Ix5P-jFp6ksUffJ8lRS8HxcgbwHvopw&s"
+    },
+    {
+      "id": "17ca8b94-f8a5-4e51-84be-8a10e6829230",
+      "name": "Table",
+      "price": 599,
+      "description": "Study Table ",
+      "category": "Furniture",
+      "stock": 15,
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRrkYrMYrc3NOCkzV-6kpOlI-2h6hU9zzAqIcaTxlWPpbN8Lv3SyuzKldOcqsLJH1LP7SqKTZKKd3gakHldAuhC9ClHg3_7OGd-451vgzf3"
+    }
+  ],
+  "cartItems": []
+}

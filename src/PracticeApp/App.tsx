@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './App.css';
+import Practice from "./Practice/Practice"
 
 function App() {
   return (
     <>
+        <Practice></Practice>
     </>
   );
 }
